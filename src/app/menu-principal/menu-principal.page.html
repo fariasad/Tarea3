@@ -1,0 +1,42 @@
+<app-header></app-header>
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-img src="assets/img/Logo.png"></ion-img>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card color="tertiary" [routerLink]="['/opcion-mapainteractivo']">
+    <ion-card-header>
+      <ion-card-title>Mapa Interactivo</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content> Card Content </ion-card-content>
+  </ion-card>
+  
+  <ion-card color="success" [routerLink]="['/opcion-ventaentradas']">
+    <ion-card-header>
+      <ion-card-title>Venta de Entradas</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content> Venta de entradas y estacionamiento </ion-card-content>
+  </ion-card>
+  
+  <ion-card color="warning" [routerLink]="['/opcion-atracciones']">
+    <ion-card-header>
+      <ion-card-title>Atracciones</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content> Videos e información de acceso </ion-card-content>
+  </ion-card>
+  
+  <ion-card color="danger" [routerLink]="['/opcion-servicios']">
+    <ion-card-header>
+      <ion-card-title>Servicios</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content> Oficina de emergencia, informaciones, baños </ion-card-content>
+  </ion-card>
+
+</ion-content>

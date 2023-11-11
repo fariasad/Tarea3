@@ -26,4 +26,8 @@ export const routes: Routes = [
     path: 'opcion-mapainteractivo',
     loadComponent: () => import('./opcion-mapainteractivo/opcion-mapainteractivo.page').then( m => m.OpcionMapainteractivoPage)
   },
+  {
+    path: 'menu-principal',
+    loadComponent: () => import('./menu-principal/menu-principal.page').then( m => m.MenuPrincipalPage)
+  },
 ];
