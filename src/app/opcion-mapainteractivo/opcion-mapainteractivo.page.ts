@@ -5,13 +5,13 @@ import { IonicModule } from '@ionic/angular';
 import { HeaderComponent } from '../components/header/header.component';
 
 @Component({
-  selector: 'app-opcion-atracciones',
-  templateUrl: './opcion-atracciones.page.html',
-  styleUrls: ['./opcion-atracciones.page.scss'],
+  selector: 'app-opcion-mapainteractivo',
+  templateUrl: './opcion-mapainteractivo.page.html',
+  styleUrls: ['./opcion-mapainteractivo.page.scss'],
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule, HeaderComponent]
 })
-export class OpcionAtraccionesPage implements OnInit {
+export class OpcionMapainteractivoPage implements OnInit {
 
   constructor() { }
 

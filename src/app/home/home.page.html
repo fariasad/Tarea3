@@ -1,19 +1,11 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-img src="assets/img/Logo.png"></ion-img>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blankxx</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <ion-card color="tertiary" [routerLink]="['/opcion-servicios']">
+  <ion-card color="tertiary" [routerLink]="['/opcion-mapainteractivo']">
     <ion-card-header>
       <ion-card-title>Mapa Interactivo</ion-card-title>
     </ion-card-header>
@@ -37,7 +29,7 @@
     <ion-card-content> Videos e información de acceso </ion-card-content>
   </ion-card>
   
-  <ion-card color="danger">
+  <ion-card color="danger" [routerLink]="['/opcion-servicios']">
     <ion-card-header>
       <ion-card-title>Servicios</ion-card-title>
     </ion-card-header>

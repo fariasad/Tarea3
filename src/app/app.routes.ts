@@ -22,4 +22,8 @@ export const routes: Routes = [
     path: 'opcion-ventaentradas',
     loadComponent: () => import('./opcion-ventaentradas/opcion-ventaentradas.page').then( m => m.OpcionVentaentradasPage)
   },
+  {
+    path: 'opcion-mapainteractivo',
+    loadComponent: () => import('./opcion-mapainteractivo/opcion-mapainteractivo.page').then( m => m.OpcionMapainteractivoPage)
+  },
 ];
