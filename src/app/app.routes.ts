@@ -14,4 +14,12 @@ export const routes: Routes = [
     path: 'opcion-servicios',
     loadComponent: () => import('./opcion-servicios/opcion-servicios.page').then( m => m.OpcionServiciosPage)
   },
+  {
+    path: 'opcion-atracciones',
+    loadComponent: () => import('./opcion-atracciones/opcion-atracciones.page').then( m => m.OpcionAtraccionesPage)
+  },
+  {
+    path: 'opcion-ventaentradas',
+    loadComponent: () => import('./opcion-ventaentradas/opcion-ventaentradas.page').then( m => m.OpcionVentaentradasPage)
+  },
 ];
