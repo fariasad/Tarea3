@@ -30,4 +30,8 @@ export const routes: Routes = [
     path: 'menu-principal',
     loadComponent: () => import('./menu-principal/menu-principal.page').then( m => m.MenuPrincipalPage)
   },
+  {
+    path: 'videos',
+    loadComponent: () => import('./opcion-atracciones/videos/videos.page').then( m => m.VideosPage)
+  },
 ];
