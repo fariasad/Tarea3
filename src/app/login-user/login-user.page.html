@@ -1,0 +1,36 @@
+<app-header></app-header>
+
+<h1><b>DATOS PARA CREACIÓN DE CUENTA</b></h1>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-input
+      label="Nombre Completo"
+      labelPlacement="stacked"
+      [clearOnEdit]="true"
+      placeholder="Ingrese su nombre"
+      ngModel>
+      </ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-input type="email" labelPlacement="stacked" placeholder="Ingrese su correo" ngModel>
+          <div slot="label">Correo <ion-text color="danger">(Obligatorio)</ion-text></div>
+      </ion-input>
+    </ion-item>  
+
+    <ion-item>
+      <ion-input label="Teléfono Celular" type="tel" labelPlacement="stacked" placeholder="+56912345678" ngModel></ion-input>
+    </ion-item>
+
+    <div class="ion-padding">Fecha de Nacimiento</div>
+    <ion-item>
+      <ion-datetime labelPlacement="stacked" presentation="date" [preferWheel]="true"></ion-datetime>
+    </ion-item>
+
+  </ion-list> 
+  
+  <ion-button expand="block" [routerLink]="['/menu-principal']">Aceptar</ion-button>
+  <ion-button expand="block" [routerLink]="['/home']" color="danger">Cancelar</ion-button>
+</ion-content>

@@ -34,4 +34,8 @@ export const routes: Routes = [
     path: 'videos',
     loadComponent: () => import('./opcion-atracciones/videos/videos.page').then( m => m.VideosPage)
   },
+  {
+    path: 'login-user',
+    loadComponent: () => import('./login-user/login-user.page').then( m => m.LoginUserPage)
+  },
 ];

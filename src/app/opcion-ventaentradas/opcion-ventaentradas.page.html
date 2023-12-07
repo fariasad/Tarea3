@@ -1,7 +1,25 @@
 <app-header></app-header>
 
 <ion-content class="ion-padding">
-  <ion-img src="assets/img/VentaEntradas.jpg"></ion-img>
+    <ion-datetime presentation="date" [firstDayOfWeek]="1"></ion-datetime>
+
+<ion-list>
+  <ion-item>
+    <ion-select aria-label="NumEntradas" interface="action-sheet">
+      <div slot="label"><b>Cantidad de entradas </b></div>
+      <ion-select-option value="1">1</ion-select-option>
+      <ion-select-option value="2">2</ion-select-option>
+      <ion-select-option value="3">3</ion-select-option>
+      <ion-select-option value="4">4</ion-select-option>
+      <ion-select-option value="5">5</ion-select-option>
+      <ion-select-option value="6">6</ion-select-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+
+<ion-button expand="block" [routerLink]="['/menu-principal']">Aceptar</ion-button>
+<ion-button expand="block" [routerLink]="['/menu-principal']" color="danger">Cancelar</ion-button>
+
 </ion-content>
 
 <ion-footer>

@@ -6,13 +6,13 @@ import { HeaderComponent } from '../components/header/header.component';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-opcion-ventaentradas',
-  templateUrl: './opcion-ventaentradas.page.html',
-  styleUrls: ['./opcion-ventaentradas.page.scss'],
+  selector: 'app-login-user',
+  templateUrl: './login-user.page.html',
+  styleUrls: ['./login-user.page.scss'],
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule, HeaderComponent, RouterLink]
 })
-export class OpcionVentaentradasPage implements OnInit {
+export class LoginUserPage implements OnInit {
 
   constructor() { }
 
