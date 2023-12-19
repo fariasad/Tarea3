@@ -2,13 +2,13 @@
 Este trabajo consiste en la parte A de la tarea de la unidad 4 de la asignatura Taller de dispositivos móviles.
 
 Para el desarrollo de la tarea se utilizaron los siguientes componentes:
-*Cards (Página Menú Principal)
-*Button (Página inicial / Página Creación de Cuenta / Página Venta de Entradas)
-*Date (Página Creación de Cuenta / Página Venta de Entradas)
-*Grid (Página Atracciones)
-*Input (Página Creación de cuenta / Venta de Entradas)
-*Select (Página Venta de Entradas)
-*Progress Indicators (Página Muestra de Video de Atracciones)
+*ion-card (Página Menú Principal)
+*ion-button (Página inicial / Página Creación de Cuenta / Página Venta de Entradas)
+*ion-date (Página Creación de Cuenta / Página Venta de Entradas)
+*ion-grid (Página Atracciones)
+*ion-input (Página Creación de cuenta / Venta de Entradas)
+*ion-select (Página Venta de Entradas)
+*ion-progress-bar (Página Muestra de Video de Atracciones)
 
 Para la ejecución del sitio web desarrollado es necesario realizar los siguientes pasos:
 * Ir a la dirección https://github.com/fariasad/Tarea3 y descargar el repositorio en algún directorio local del equipo.
