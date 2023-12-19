@@ -1,11 +1,14 @@
 # Tarea3
-Este trabajo consiste en la parte B de la tarea de la unidad 3 de la asignatura Taller de dispositivos móviles.
-Para su desarrollo se realizaron los siguientes pasos:
-* Instalación Node.js
-* Instalación Angular CLI
-* Instalación Visual Studio Code
-* Creación de una cuenta en github.com
+Este trabajo consiste en la parte A de la tarea de la unidad 4 de la asignatura Taller de dispositivos móviles.
 
+Para el desarrollo de la tarea se utilizaron los siguientes componentes:
+*Cards (Página Menú Principal)
+*Button (Página inicial / Página Creación de Cuenta / Página Venta de Entradas)
+*Date (Página Creación de Cuenta / Página Venta de Entradas)
+*Grid (Página Atracciones)
+*Input (Página Creación de cuenta / Venta de Entradas)
+*Select (Página Venta de Entradas)
+*Progress Indicators (Página Muestra de Video de Atracciones)
 
 Para la ejecución del sitio web desarrollado es necesario realizar los siguientes pasos:
 * Ir a la dirección https://github.com/fariasad/Tarea3 y descargar el repositorio en algún directorio local del equipo.
@@ -13,4 +16,5 @@ Para la ejecución del sitio web desarrollado es necesario realizar los siguient
 * Una vez abierto el sitio web, presionar F12 para que pueda ser visualizado en formato de dispositivo móvil.
 * Finalmente, navegar en la aplicación.
 
-Mis mayores problemas estuvieron en el uso y sincronización con Github, ya que nunca lo había utilizado y al principio es un poco complicado de enteder.
+La selección de los componentes que se utilizaron se realizó intentando dar un sentido lógico y operativo a la app.
+La documentación del sitio https://ionicframework.com/docs/components es sencilla de entender, por lo cual, no se encontraron problemas para incoporar los componentes a la app.
