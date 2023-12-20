@@ -18,3 +18,9 @@ Para la ejecución del sitio web desarrollado es necesario realizar los siguient
 
 La selección de los componentes que se utilizaron se realizó intentando dar un sentido lógico y operativo a la app.
 La documentación del sitio https://ionicframework.com/docs/components es sencilla de entender, por lo cual, no se encontraron problemas para incoporar los componentes a la app.
+
+
+*************************
+Se adjunta aplicación demo_fantasilandia.apk.
+Por algún motivo que no logré resolver, la app apk no muestra los complementos correctamente como sí lo hace la página web.
+Por ejemplo, en los componentes ion-button solo muestra el texto pero sin formato, aunque al presionarlo funciona el evento asociado al click.
